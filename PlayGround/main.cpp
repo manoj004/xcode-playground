@@ -6,10 +6,21 @@
 //  Copyright © 2016 Manoj Chakkaravarthy. All rights reserved.
 //
 
-#include <iostream>
+#include "Graph.h"
+
+using namespace std;
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    string inputfile = argv[1];
+    
+    cout << "Parsing Test Case: " << inputfile << endl;
+    
+    Graph* G = new Graph;
+    G->parse(inputfile);
+    
+    cout << "Parsing Done : " << (G->getVertices()).size() << " Vertices , "
+                              << (G->getEdges()).size() << " Edges" << endl;
+    G->print();
     return 0;
 }

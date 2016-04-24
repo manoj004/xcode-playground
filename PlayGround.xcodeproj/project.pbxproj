@@ -26,7 +26,6 @@
 		98CF372E1CCC0D52000BB4B8 /* PlayGround */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = sourcecode.cpp.h; path = PlayGround; sourceTree = BUILT_PRODUCTS_DIR; };
 		98CF37311CCC0D52000BB4B8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		98CF37381CCC100B000BB4B8 /* Graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
-		98CF373A1CCC45D0000BB4B8 /* graph1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = graph1.txt; path = TestCases/graph1.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				98CF37311CCC0D52000BB4B8 /* main.cpp */,
-				98CF373A1CCC45D0000BB4B8 /* graph1.txt */,
 				98CF37381CCC100B000BB4B8 /* Graph.h */,
 			);
 			path = PlayGround;
